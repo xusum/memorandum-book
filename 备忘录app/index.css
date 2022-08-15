@@ -1,0 +1,38 @@
+.add{
+    border: 1px solid #eee;
+    padding: 0 20px;
+}
+.add input{
+    width: 100%;
+    height: 20px;
+    overflow:hidden;
+}
+.add button{
+    margin-top: 10px;
+    width: 100%;
+}
+#addedBtn{
+    background-color: #000;
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.remove{
+    background-color: rgb(211, 101, 101);
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.item{
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
